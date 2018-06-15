@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css"rel="stylesheet"href="../css/style.css">
+</head>
+<body>
+<ul id="nav">
+    <li><a class="active" href="../index.html">HOME</a></li>
+    <li><a href="#news">ABOUT US</a></li>
+    <li><a href="contactus.html">CONTACT US</a></li>
+    <span id="account">
+         <li><a href="signup.html">SIGNUP</a></li>
+         <li><a href="login.html">LOGIN</a></li>
+    </span>
+</ul>
+<div class="wrapper">
+    <h3 id="signup-text">Want to get in touch with us ?</h3>
+    <hr/>
+    <form method="post">
+        <table id="signup-table">
+            <tr>
+                <td>
+                    <label for="phoneNumber">Phone Number</label>
+                </td>
+                <td>
+                    <input type="text" name="phoneNumber" id="phoneNumber" class="form-control">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>
+                    <input type="text" name="email" id="email" class="form-control">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="message">Message</label>
+                </td>
+                <td>
+                    <textarea cols="50" rows="7" id="message">
+
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+                <td>
+                    <input type="submit" name="submit" id="submit" value="Send" class="register-btn">
+                    <input type="reset"value="Cancel" class="register-btn" id="cancel">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<script type="text/javascript"src="../js/script.js"></script>
+</body>
+</html>

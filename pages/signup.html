@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css"rel="stylesheet"href="../css/style.css">
+</head>
+<body>
+<ul id="nav">
+    <li><a class="active" href="../index.html">HOME</a></li>
+    <li><a href="#news">ABOUT US</a></li>
+    <li><a href="../pages/contactus.html">CONTACT US</a></li>
+    <span id="account">
+         <li><a href="signup.html">SIGNUP</a></li>
+         <li><a href="login.html">LOGIN</a></li>
+    </span>
+</ul>
+<div class="wrapper">
+    <h3 id="signup-text">Please Signup here.</h3>
+    <hr/>
+<form method="post">
+    <table id="signup-table">
+        <tr>
+            <td>
+                <label for="fisrtName">First Name</label>
+            </td>
+            <td>
+                <input type="text" name="firstName" id="fisrtName" class="form-control">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="lastName">Last Name</label>
+            </td>
+            <td>
+                <input type="text" name="lastName" id="lastName" class="form-control">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="phoneNumber">Phone Number</label>
+            </td>
+            <td>
+                <input type="text" name="phoneNumber" id="phoneNumber" class="form-control">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Email</label>
+            </td>
+            <td>
+                <input type="text" name="email" id="email" class="form-control">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password">Password</label>
+            </td>
+            <td>
+                <input type="password" name="password" id="password" class="form-control">
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+            </td>
+            <td>
+                <input type="submit" name="submit" id="submit" value="Register" class="register-btn">
+                <input type="reset"value="Cancel" class="register-btn" id="cancel">
+            </td>
+        </tr>
+    </table>
+</form>
+    <h3 id="log">Already with Account <a href="login.html">Login</a> </h3>
+</div>
+
+<script type="text/javascript"src="../js/script.js"></script>
+</body>
+</html>

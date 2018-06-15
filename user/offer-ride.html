@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css"rel="stylesheet"href="../css/style.css">
+</head>
+<body>
+<div class="user-wrapper">
+    <ul id="nav">
+        <li><a class="active" href="../index.html">HOME</a></li>
+        <li><a href="#news">ABOUT US</a></li>
+        <li><a href="../pages/contactus.html">CONTACT US</a></li>
+        <span id="account">
+         <li><a href="../pages/signup.html">SIGNUP</a></li>
+         <li><a href="../pages/login.html">LOGIN</a></li>
+    </span>
+    </ul>
+    <div class="user-sidebar">
+        <center><img src="../img/user-icon2.png" id="user-icon" width="100px"height="100px"></center>
+        <hr/>
+        <div class="user-left-sidebar">
+            <a href="profile.html">My Profile</a><hr/>
+            <a href="index.html">Dashboard</a> <hr/>
+            <a href="myrides.html">My Rides History</a> <hr/>
+            <a href="offer-ride.html">Offer a Ride</a> <hr/>
+            <a href="#">Favourites</a> <hr/>
+            <a href="#">Logout</a>
+        </div>
+    </div>
+    <div class="user-main">
+        <h3 id="signup-text">Please provide details of the ride</h3>
+        <hr/>
+        <form method="post">
+            <table id="signup-table">
+                <tr>
+                    <td>
+                        <label for="carName">Car Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="carName" id="carName" class="form-control">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="numberPlate">NumberPlate</label>
+                    </td>
+                    <td>
+                        <input type="text" name="numberPlate" id="numberPlate" class="form-control">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="location">Location</label>
+                    </td>
+                    <td>
+                        <input type="text" name="location" id="location" class="form-control">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sits">Number of sits</label>
+                    </td>
+                    <td>
+                        <input type="text" name="sits" id="sits" class="form-control">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="price">Estimated Price</label>
+                    </td>
+                    <td>
+                        <input type="text" name="price" id="price" class="form-control">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="discount">Discount</label>
+                    </td>
+                    <td>
+                        <input type="text" name="discount" id="discount" class="form-control">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        <input type="submit" name="submit" id="submit" value="Add" class="register-btn">
+                        <input type="reset"value="Cancel" class="register-btn" id="cancel">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+</body>
+</html>
